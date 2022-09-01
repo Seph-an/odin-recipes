@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+	margin: 0;
+	/*this property ensures that no additional px are added e.g if eidth is 5px then pad of 2px wont make the total w 7px*/
+	box-sizing: border-box;
+}
+.container{
+    margin:0 auto;
+    width: 70%;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    /* position: relative; */
+    padding: 30px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: cyan;
+}
+.container img{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    
+}
+ .tilapia{
+    margin: 35px 0;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+ } 
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    background-color: indianred;
+    width: 50%;
+    margin: 10px 0;
+}
+.comm{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    max-width: 70%;
+}
+ul{
+    color:cadetblue
+}
